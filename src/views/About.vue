@@ -8,9 +8,36 @@
     >
       <h1 v-if="showTitle">About</h1>
     </transition>
-    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum aperiam officia possimus delectus inventore quod quisquam culpa voluptas iusto, quae maiores quo dolorum, corporis laboriosam a dolore consequatur assumenda nam!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum aperiam officia possimus delectus inventore quod quisquam culpa voluptas iusto, quae maiores quo dolorum, corporis laboriosam a dolore consequatur assumenda nam!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum aperiam officia possimus delectus inventore quod quisquam culpa voluptas iusto, quae maiores quo dolorum, corporis laboriosam a dolore consequatur assumenda nam!</p>
+    <p >The Dajao team created a proyect called "Dajao in Europe", it's a web page where we'll count the economic</p>
+    <p>and environmental impact of the pandemic of COVID-19 due to the decrease of human activity using geospatial</p>
+    <p>information and Earth's daily images before and after the pandemic.</p><br><br>
+
+    <p>Who We Are</p>
+    <p>We are DAJAO</p>
+    <p>A little team that works for a better world providing more information and easily to understand</p>
+    <p>We are made up of a group of 5 personnel which are.</p>
+    <br><br>
+    <p><h1>Oscar</h1><br>
+    <img src="../assets/osc98.jpg"/>
+    </p>
+    <br><br>
+    <p><h1>Daniela</h1><br>
+    <img src="../assets/dani.jpg"/>
+    </p>
+    <br><br>
+    <p> <h1>Andrea</h1><br>
+    <img src="../assets/andrea.jpg"/>
+    </p>
+    <br><br>
+    <p><h1>Ana</h1><br>
+    <img src="../assets/ana.jpg"/>
+    </p>
+    <br><br>
+    <p><h1>Jonathan </h1><br>
+    <img src="../assets/pelon1.jpg"/>
+    </p>
+
+
   </div>
 </template>
 

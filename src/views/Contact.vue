@@ -1,16 +1,32 @@
-<template>
+  <template>
   <div class="contact">
-    <h1>Contact</h1>
-    <transition-group 
-      appear
-      tag="ul"
-      @before-enter="beforeEnter"
-      @enter="enter"
-    >
-      <li v-for="(icon, index) in icons" :key="icon.name" :data-index="index">
-        <span class="material-icons">{{ icon.name }}</span>
-        <div>{{ icon.text }}</div>
-      </li>
+    <h1 >contact</h1>
+    <transition-group>
+        <h1> DAJAO</h1>
+        <h2> Contact Us </h2> 
+        <div class="container">
+  <form>
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
     </transition-group>
   </div>
 </template>

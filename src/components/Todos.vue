@@ -19,7 +19,7 @@
       :src="
         isDefaultImage 
       "
-      width="500"/> 
+      width="450"/> 
       </li>
   </ul>
 </div> <iframe class="item" src="https://www.eodashboard.org/iframe?poi=IT9-E13b" width="800px" height="500px" frameBorder="0" scroll="no" style="overflow:hidden"></iframe>        
@@ -216,16 +216,25 @@ export default {
     handleScroll(event) {
       // Any code to be executed when the window is scrolled
       console.log(window.scrollY);
-      
-        if (window.scrollY >450) {
+        if (window.scrollY <450) {
         if (!this.defaultImage) {
           return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/0.png");
         }
       }
         
-      if (window.scrollY >= 450) {
+      if (window.scrollY >= 450 && window.scrollY < 460 ) {
         if (!this.defaultImage) {
-          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/arch.jpg");
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/A1.jpg");
+        }
+      }
+      if (window.scrollY > 460 && window.scrollY < 470 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/A2.jpg");
+        }
+      }
+      if (window.scrollY > 470 && window.scrollY < 480 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/A3.jpg");
         }
       }
           },

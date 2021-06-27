@@ -1,52 +1,200 @@
 
-<template>
-  <div>
-    <h1 data-aos="fade">AOS Demo</h1>
-    <p data-aos="flip-up" data-aos-duration="1000">
-      AOS is awesome! Thank you
-      <a class="anchor" href="https://twitter.com/michalsnik">
-        Michał Sajnóg
-      </a>
-      😄
-    </p>
-
-    <p data-aos="slide-up" data-aos-easing="ease">
-      Paragraph with fade up animation and <code>ease</code> easing.
-    </p>
-
-    <p data-aos="zoom-in" data-aos-anchor=".anchor">
-      Paragraph with fade down animation with the above link as anchor. This
-      makes this paragraph animate before the previous paragraph starts
-      animating.
-    </p>
-    <img
-      style="position: fixed"
-      alt="Vue logo"
+<template> <div id='container' style="margin:0px auto 0; width:50%;">
+    <br>
+      <div tabindex="0" class="e-card" id="basic">
+        <div class="e-card-header">
+            <div class="e-card-header-caption">
+                <div class="e-card-title">Grounded airplanes during the novel coronavirus pandemic</div>
+            </div>
+        </div>
+        <div class="e-card-content">
+            •	During COVID-19 related lockdowns activities like air travel decreased to prevent   the spread of the novel coronavirus.
+        </div>
+    </div>
+</div> 
+<div id="contenedorMenu">
+  <ul >
+    <li  key="index" data-aos="fade-up" data-aos-delay="500"  class=" align-items-center col-sm-6 d-flex flex-column justify-content-center mb-6 " >  
+     <img     
       :src="
-        isDefaultImage
-          ? 'https://thumbs.dreamstime.com/b/t%C3%AAte-et-visage-de-portrait-mouette-adulte-harengs-semblant-droits-125872008.jpg'
-          : 'https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg'
+        isDefaultImage 
       "
-      width="25%"
-    />
-
-    <hr class="my-5" />
-    <ul class="list-unstyled row">
-      <img width="720" height="720">
-      <li key="index" data-aos="zoom-out" data-aos-delay="500"  class=" align-items-center col-sm-6 d-flex flex-column justify-content-center mb-5 " >
-        <img src="../assets/animals.jpg" class="fluid mb-3 mr-3" />
-      </li><img src="../assets/animals.jpg" class="fluid mb-3 mr-3" />
-      <li  key="index" data-aos="fade-up" data-aos-delay="500"  class=" align-items-center col-sm-6 d-flex flex-column justify-content-center mb-5 " >
-        <img src="../assets/animals.jpg" class="fluid mb-3 mr-3" />
+      width="200"/> 
       </li>
-      <li key="index" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="500"  class=" align-items-center col-sm-6 d-flex flex-column justify-content-center mb-5 " >
-        <img src="../assets/animals.jpg" class="fluid mb-3 mr-3" />
-      </li>
-      <li key="index" data-aos="fade-up" data-aos-delay="500"  class=" align-items-center col-sm-6 d-flex flex-column justify-content-center mb-5 " >
-        <img src="../assets/animals.jpg" class="fluid mb-3 mr-3" />
-      </li>
-    </ul>
-  </div>
+  </ul>
+</div> <iframe class="item" src="https://www.eodashboard.org/iframe?poi=IT9-E13b" width="800px" height="500px" frameBorder="0" scroll="no" style="overflow:hidden"></iframe>        
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+<p>
+.
+</p>
+  
 </template> 
 
 <script>
@@ -55,7 +203,7 @@ export default {
 
   data() {
     return {
-      isDefaultImage: true,
+      isDefaultImage: "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/arch.jpg",
     };
   },
   created() {
@@ -68,20 +216,27 @@ export default {
     handleScroll(event) {
       // Any code to be executed when the window is scrolled
       console.log(window.scrollY);
-      if (window.scrollY > 200) {
-        return (this.isDefaultImage = false);
+      if (window.scrollY < 300) {
+        if (window.scrollY > 333) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://www.pngfind.com/pngs/m/333-3330324_imagenes-en-png-con-fondo-transparente-johns-hopkins.png");
+        }
+      }
+        return (this.isDefaultImage = "https://i.blogs.es/594843/chrome/450_1000.jpg");
       }
       if (window.scrollY <= 100) {
         if (!this.defaultImage) {
-          return (this.isDefaultImage = true);
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/arch.jpg");
         }
       }
-    },
+          },
   },
 };
 </script>
 
 <style>
+@import "../../node_modules/@syncfusion/ej2-base/styles/material.css";
+ @import "../../node_modules/@syncfusion/ej2-vue-layouts/styles/material.css";
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -104,6 +259,11 @@ export default {
 }
 #contenedorMenu{
   position: fixed;
+width: 500px;
+height: 200px;
+margin: 5% auto; /* Will not center vertically and won't work in IE6/7. */
+left: 0;
+right: 0;
 }
   .todos {
     max-width: 400px;

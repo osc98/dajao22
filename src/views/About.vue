@@ -17,25 +17,21 @@
     <p>A little team that works for a better world providing more information and easily to understand</p>
     <p>We are made up of a group of 5 personnel which are.</p>
     <br><br>
-    <p><h1>Oscar</h1><br>
-    <img src="../assets/osc98.jpg"/>
-    </p>
+    <h1>Oscar</h1>
+    <img src="../assets/osc98.jpg"> 
     <br><br>
-    <p><h1>Daniela</h1><br>
-    <img src="../assets/dani.jpg"/>
-    </p>
+    <h1>Daniela</h1> 
+    <img src="../assets/dani.jpg">
     <br><br>
-    <p> <h1>Andrea</h1><br>
-    <img src="../assets/andrea.jpg"/>
-    </p>
+     <h1>Andrea</h1>
+    <img src="../assets/andrea.jpg">
     <br><br>
-    <p><h1>Ana</h1><br>
-    <img src="../assets/ana.jpg"/>
-    </p>
+    <h1>Ana</h1>
+    <img src="../assets/ana.jpg">
     <br><br>
-    <p><h1>Jonathan </h1><br>
-    <img src="../assets/pelon1.jpg"/>
-    </p>
+      <h1>Jonathan </h1>
+    <img src="../assets/pelon1.jpg">
+    
 
 
   </div>

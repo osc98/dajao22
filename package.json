@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@dcasia/vue-aos": "^1.0.0",
+    "@syncfusion/ej2-vue-layouts": "^19.1.63",
     "aos": "^2.3.4",
     "core-js": "^3.6.5",
     "gsap": "^3.6.0",

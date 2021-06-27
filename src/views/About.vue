@@ -18,19 +18,19 @@
     <p>We are made up of a group of 5 personnel which are.</p>
     <br><br>
     <h1>Oscar</h1>
-    <img src="../assets/osc98.jpg"> 
+    <img data-aos="zoom-in-right" src="../assets/osc98.jpg"> 
     <br><br>
     <h1>Daniela</h1> 
-    <img src="../assets/dani.jpg">
+    <img data-aos="zoom-in-right" src="../assets/dani.jpg">
     <br><br>
      <h1>Andrea</h1>
-    <img src="../assets/andrea.jpg">
+    <img data-aos="zoom-in-right" src="../assets/andrea.jpg">
     <br><br>
     <h1>Ana</h1>
-    <img src="../assets/ana.jpg">
+    <img data-aos="zoom-in-right" src="../assets/ana.jpg">
     <br><br>
       <h1>Jonathan </h1>
-    <img src="../assets/pelon1.jpg">
+    <img data-aos="zoom-in-right" src="../assets/pelon1.jpg">
     
 
 

@@ -1,7 +1,15 @@
 
-<template> <div id='container' style="margin:0px auto 0; width:50%;">
+<template>
+<div tabindex="0" class="e-card" id="basic"  data-aos="fade-up" data-aos-delay="500">
+        <div class="e-card-header">
+            <div class="e-card-header-caption">
+                <div class="e-card-title"><h1>Grounded airplanes during the novel coronavirus pandemic</h1></div>
+            </div>
+        </div>
+    </div>
+<div id='container' style="margin:0px auto 0; width:100%;">
     <br>
-      <div tabindex="0" class="e-card" id="basic">
+      <div tabindex="1" class="e-card" id="basic">
         <div class="e-card-header"  data-aos="fade-up" data-aos-delay="500">
             <div class="e-card-header-caption">
                 <div class="e-card-title">Grounded airplanes during the novel coronavirus pandemic</div>
@@ -23,9 +31,9 @@
       </li>
   </ul>
 </div> <iframe class="item" src="https://www.eodashboard.org/iframe?poi=IT9-E13b" width="800px" height="500px" frameBorder="0" scroll="no" style="overflow:hidden"></iframe>        
-<div id='container' style="margin:0px auto 0; width:50%;">
+<div id='container' style="margin:0px auto 0; width:100%;">
     <br>
-      <div tabindex="0" class="e-card" id="basic"  data-aos="fade-up" data-aos-delay="500">
+      <div tabindex="2" class="e-card" id="basic"  data-aos="fade-up" data-aos-delay="500">
         <div class="e-card-header">
             <div class="e-card-header-caption">
                 <div class="e-card-title"><h1>Airplanes during the novel coronavirus pandemic</h1></div>
@@ -34,7 +42,6 @@
         <div class="e-card-content">
           •	To help quantify these changes, scientists are combining two kinds of space-based
 remote sensing data – synthetic aperture radar (SAR) data from JAXA’s ALOS-2 and ESA’s Copernicus Sentinel-1 satellites with NASA-processed high-resolution optical remote sensing data from Planet Inc. ESA's Copernicus Sentinel-2 multispectral satellite data – to observe and quantify the changes in grounded airplanes and air traffic around the world
-
         </div>
     </div>
 </div> 
@@ -55,9 +62,9 @@ remote sensing data – synthetic aperture radar (SAR) data from JAXA’s ALOS-2
 <br>
 <br>
 <br>
-<div id='container' style="margin:0px auto 0; width:50%;">
+<div id='container' style="margin:0px auto 0; width:100%;">
     <br>
-      <div tabindex="0" class="e-card" id="basic"  data-aos="fade-up" data-aos-delay="500">
+      <div tabindex="3" class="e-card" id="basic"  data-aos="fade-up" data-aos-delay="500">
         <div class="e-card-content">
           •	By comparing SAR images of airports before, during, and after lockdowns, scientists can determine how air traffic may have changed during the pandemic.
 •	In general, manmade targets such as buildings, cars, and airplanes appear brighter in SAR imagery than natural targets like bare land, forested areas, or the ocean.
@@ -69,7 +76,7 @@ remote sensing data – synthetic aperture radar (SAR) data from JAXA’s ALOS-2
 <br>
 <br>
 <br>
-<br><div id='container' style="margin:0px auto 0; width:50%;">
+<br>
     <br>
       <div tabindex="0" class="e-card" id="basic"  data-aos="fade-up" data-aos-delay="500">
         <div class="e-card-header">
@@ -78,9 +85,9 @@ remote sensing data – synthetic aperture radar (SAR) data from JAXA’s ALOS-2
             </div>
         </div>
     </div>
-</div> <iframe class="item" src="https://www.eodashboard.org/iframe?poi=NorthAdriaticTSM_ESA-N3a2" width="800px" height="500px" frameBorder="0" scroll="no" style="overflow:hidden"></iframe>
+ <iframe class="item" src="https://www.eodashboard.org/iframe?poi=NorthAdriaticTSM_ESA-N3a2" width="800px" height="500px" frameBorder="0" scroll="no" style="overflow:hidden"></iframe>
 <!-- Es b -->
-<br><div id='container' style="margin:0px auto 0; width:50%;">
+<br><div id='container' style="margin:0px auto 0; width:100%;">
  <div tabindex="0" class="e-card" id="basic"  data-aos="fade-up" data-aos-delay="500">
         <div class="e-card-header">
             <div class="e-card-header-caption">
@@ -109,7 +116,7 @@ remote sensing data – synthetic aperture radar (SAR) data from JAXA’s ALOS-2
 <br>
 <br>
 <br>
-<br><div id='container' style="margin:0px auto 0; width:50%;">
+<br><div id='container' style="margin:0px auto 0; width:100%;">
  <div tabindex="0" class="e-card" id="basic"  data-aos="fade-up" data-aos-delay="500">
         <div class="e-card-content">
           •	In the Venice lagoon, this pattern of low Chlorophyll concentration can be most probably linked to the decrease of maritime traffic and tourism frequentation.
@@ -120,14 +127,15 @@ remote sensing data – synthetic aperture radar (SAR) data from JAXA’s ALOS-2
 <br>
 <br>
 <br>
-<br><br>
 <br>
 <br>
 <br>
 <br>
 <br>
 <br>
-<div id='container' style="margin:0px auto 0; width:50%;">
+<br>
+<br>
+<div id='container' style="margin:0px auto 0; width:100%;">
  <div tabindex="0" class="e-card" id="basic"  data-aos="fade-up" data-aos-delay="500">
         <div class="e-card-content">
         <ul style="list-style-type: disc;">
@@ -147,12 +155,47 @@ remote sensing data – synthetic aperture radar (SAR) data from JAXA’s ALOS-2
 <br> <div tabindex="0" class="e-card" id="basic"  data-aos="fade-up" data-aos-delay="500">
         <div class="e-card-header">
             <div class="e-card-header-caption">
-                <div class="e-card-title"><h1>World, Air Quality</h1></div>
+                <div class="e-card-title"><h1>Milan, Air Quality</h1></div>
             </div>
         </div>
     </div>
 <br><iframe class="item" src="https://www.eodashboard.org/iframe?poi=W1-N1" width="800px" height="500px" frameBorder="0" scroll="no" style="overflow:hidden"></iframe>
 <br>
+<br> 
+<div tabindex="0" class="e-card" id="basic"  data-aos="fade-up" data-aos-delay="500">
+  <div class="e-card-content">
+    <ul style="list-style-type: disc;">
+    <li><span style="line-height:150%;font-size:16px;">In an effort to mitigate the spread of the novel coronavirus, government and public health officials have enacted various social distancing practices and other measures to limit human contact, at times placing entire countries on lockdown.&nbsp;</span></li>
+    <li><span style="line-height:150%;font-size:16px;">As human behavior has changed during the pandemic, ongoing measurements from Earth observing instruments have detected concurrent changes in environmental factors, such as a drop in the air pollutant nitrogen dioxide (NO2).</span></li>
+  </ul>      
+    </div>
+    </div>
+<br>
+<br>
+<br>
+<div tabindex="0" class="e-card" id="basic"  data-aos="fade-up" data-aos-delay="500">
+  <div class="e-card-content">
+    <ul style="list-style-type: disc;">
+    <li><span style="line-height:150%;font-size:16px;">Data shown here from the&nbsp;</span><a href="https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-5P/Tropomi" target="_blank"><span style="line-height:150%;font-size:12.0pt;">Tropospheric Monitoring Instrument (TROPOMI jointly developed by The Netherlands and ESA)</span></a><span style="line-height:150%;font-size:16px;">&nbsp;on the&nbsp;</span><a href="https://www.copernicus.eu/en" target="_blank"><span style="line-height:150%;font-size:16px;">European Space Agency&rsquo;s (ESA) Copernicus Sentinel-5P satellite</span></a><span style="line-height:150%;font-size:16px;">&nbsp;satellite and the&nbsp;</span><a href="https://www.nasa.gov/mission_pages/aura/spacecraft/omi.html" target="_blank"><span style="line-height:150%;font-size:12.0pt;">Netherlands-Finnish instrument Ozone Monitoring Instrument (OMI)</span></a><span style="line-height:;font-size:12.0pt;line-height:;;">&nbsp;on the&nbsp;</span><a href="https://www.nasa.gov/mission_pages/aura/main/index.html" target="_blank"><span style="line-height:150%;font-size:16px;">Aura satellite</span></a><span style="line-height:150%;font-size:12.0pt;">, show significant drops in regional nitrogen dioxide (NO2) levels that coincide with reduced traffic and industrial activity.</span></li>
+    <li><span style="line-height:150%;font-size:16px;">The measurements presented here combine and average nitrogen dioxide data to account for variations in NO2 caused by weather, such as clouds and wind. This provides a clearer picture of the impact of human activity on NO2 levels. In Madrid, Milan, Rome, and Paris</span></li>
+</ul>
+     </div>
+    </div>
+<br>
+<br>
+<br>
+<br><div tabindex="0" class="e-card" id="basic"  data-aos="fade-up" data-aos-delay="500">
+<div class="e-card-content">
+  <div style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'>
+    <ul>
+        <li><span style="line-height:150%;font-size:16px;">For example, TROPOMI data show about a 50% reduction in NO2 from March 13-April 13, 2020 compared to the same months the year before. These reductions coincide with implementation of strict quarantine measures across Europe.</span></li>
+    </ul>
+</div>
+<ul>
+    <li><span style='font-size:16px;line-height:107%;'>Similar reductions in air pollution have been observed in the Northeast United States. From Washington, D.C. to Boston, averaged OMI NO2 column data during lockdowns in March 2020 were 30% lower than averaged data for March 2015-2019.</span></li>
+</ul>    
+  </div>
+  </div>
 <br>
 <br>
 <br>
@@ -173,7 +216,41 @@ remote sensing data – synthetic aperture radar (SAR) data from JAXA’s ALOS-2
 <br>
 <br>
 <br>
-  
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+ <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div tabindex="0" class="e-card" id="basic"  data-aos="fade-up" data-aos-delay="500">
+<div class="e-card-content">
+  <div style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'>
+    <ul>
+        <li><span style="line-height:150%;font-size:16px;">TROPOMI observations over India also showed less air pollution during lockdowns in selected cities, such as New Delhi and Mumbai. Comparing the same timeframes in 2019, averaged NO2 concentrations from the first day of the lockdown on March 25-April 20, 2020 data show reductions of about 40-50% of air pollution. However, reductions in nitrogen dioxide were not consistent throughout India. Northeast India showed nearly constant values of NO2 levels due to ongoing operations at coal-based power plants, which did not reduce electric power generation significantly during the lockdown.</span></li>
+        <li><span style="line-height:150%;font-size:16px;">Similarly, as stay-at-home and other lockdown restrictions begin to ease, OMI and TROPOMI are observing rebounds in nitrogen dioxide levels.</span></li>
+    </ul>
+</div>
+  </div>
+  </div>
+<br>
+<br>  
 </template> 
 
 <script>
@@ -345,9 +422,159 @@ export default {
           return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/B18.png",this.isDefaultImageTam=400);
         }
       }
-      if (window.scrollY > 2900 && window.scrollY <= 4000 ) {
+      if (window.scrollY > 2900 && window.scrollY <= 3500 ) {
         if (!this.defaultImage) {
           return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/B18.png",this.isDefaultImageTam=0);
+        }
+      }
+      if (window.scrollY > 4000 && window.scrollY <= 4020 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/C1.jpg",this.isDefaultImageTam=500);
+        }
+      }
+      if (window.scrollY > 4020 && window.scrollY <= 4040 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/C2.jpg",this.isDefaultImageTam=500);
+        }
+      }
+      if (window.scrollY > 4040 && window.scrollY <= 4060 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/C3.jpg",this.isDefaultImageTam=500);
+        }
+      }
+      if (window.scrollY > 4060 && window.scrollY <= 4080 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/C4.jpg",this.isDefaultImageTam=500);
+        }
+      }
+      if (window.scrollY > 4080 && window.scrollY <= 4100 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/C5.jpg",this.isDefaultImageTam=500);
+        }
+      }
+      if (window.scrollY > 4100 && window.scrollY <= 4120 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/C6.jpg",this.isDefaultImageTam=500);
+        }
+      }
+      if (window.scrollY > 4120 && window.scrollY <= 4140 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/C7.jpg",this.isDefaultImageTam=500);
+        }
+      }
+      if (window.scrollY > 4140 && window.scrollY <= 4160 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/C8.jpg",this.isDefaultImageTam=500);
+        }
+      }
+      if (window.scrollY > 4160 && window.scrollY <= 4180 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/C9.jpg",this.isDefaultImageTam=500);
+        }
+      }
+      if (window.scrollY > 4200 && window.scrollY <= 4220 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/C10.jpg",this.isDefaultImageTam=500);
+        }
+      }
+      if (window.scrollY > 4220 && window.scrollY <= 4240 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/C11.jpg",this.isDefaultImageTam=500);
+        }
+      }
+      if (window.scrollY > 4260 && window.scrollY <= 4280 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/C12.jpg",this.isDefaultImageTam=500);
+        }
+      }
+      if (window.scrollY > 4280 && window.scrollY <= 4300 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/C13.jpg",this.isDefaultImageTam=500);
+        }
+      }
+      if (window.scrollY > 4320 && window.scrollY <= 4340 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/C14.jpg",this.isDefaultImageTam=500);
+        }
+      }
+      if (window.scrollY > 4340 && window.scrollY <= 4360 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/C15.jpg",this.isDefaultImageTam=500);
+        }
+      }
+      if (window.scrollY > 4360 && window.scrollY <= 4380 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/C16.jpg",this.isDefaultImageTam=500);
+        }
+      }
+      if (window.scrollY > 4380 && window.scrollY <= 4400 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/C17.jpg",this.isDefaultImageTam=500);
+        }
+      }
+      if (window.scrollY > 4400 && window.scrollY <= 4420 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/C18.jpg",this.isDefaultImageTam=500);
+        }
+      }
+      if (window.scrollY > 4420 && window.scrollY <= 4440 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/C19.jpg",this.isDefaultImageTam=500);
+        }
+      }
+      if (window.scrollY > 4440 && window.scrollY <= 4460 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/C20.jpg",this.isDefaultImageTam=500);
+        }
+      }
+      if (window.scrollY > 4460 && window.scrollY <= 4480 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/C21.jpg",this.isDefaultImageTam=500);
+        }
+      }
+      if (window.scrollY > 4480 && window.scrollY <= 4500 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/C22.jpg",this.isDefaultImageTam=500);
+        }
+      }
+      if (window.scrollY > 4500 && window.scrollY <= 4520 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/C23.jpg",this.isDefaultImageTam=500);
+        }
+      }
+      if (window.scrollY > 4520 && window.scrollY <= 4540 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/C24.jpg",this.isDefaultImageTam=500);
+        }
+      }
+      if (window.scrollY > 4540 && window.scrollY <= 4560 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/C25.jpg",this.isDefaultImageTam=500);
+        }
+      }
+      if (window.scrollY > 4560 && window.scrollY <= 4580 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/C26.jpg",this.isDefaultImageTam=500);
+        }
+      }
+      if (window.scrollY > 4580 && window.scrollY <= 4600 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/C27.jpg",this.isDefaultImageTam=500);
+        }
+      }
+      if (window.scrollY > 4600 && window.scrollY <= 4620 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/C28.jpg",this.isDefaultImageTam=500);
+        }
+      }
+      if (window.scrollY > 4620 && window.scrollY <= 4640 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/C30.jpg",this.isDefaultImageTam=500);
+        }
+      }
+      if (window.scrollY > 4700  ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/C30.jpg",this.isDefaultImageTam=0);
         }
       }
           },

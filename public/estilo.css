@@ -8,7 +8,7 @@
     font-family: montserrat;
   }
   nav{
-    background: #000000;
+    background: #13d3ec;
     height: 100%;
     width: 100%;
   }
@@ -117,7 +117,7 @@
     font-size: 35px;
     text-transform: uppercase;
     color: white;
-    text-shadow: 0 5px 15px rgba(0,0,0,.2);
+    text-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 .tam img{
   top: 50px;

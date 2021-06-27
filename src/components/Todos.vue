@@ -19,7 +19,7 @@
       :src="
         isDefaultImage 
       "
-      width="200"/> 
+      width="500"/> 
       </li>
   </ul>
 </div> <iframe class="item" src="https://www.eodashboard.org/iframe?poi=IT9-E13b" width="800px" height="500px" frameBorder="0" scroll="no" style="overflow:hidden"></iframe>        
@@ -216,15 +216,14 @@ export default {
     handleScroll(event) {
       // Any code to be executed when the window is scrolled
       console.log(window.scrollY);
-      if (window.scrollY < 300) {
-        if (window.scrollY > 333) {
+      
+        if (window.scrollY >450) {
         if (!this.defaultImage) {
-          return (this.isDefaultImage = "https://www.pngfind.com/pngs/m/333-3330324_imagenes-en-png-con-fondo-transparente-johns-hopkins.png");
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/0.png");
         }
       }
-        return (this.isDefaultImage = "https://i.blogs.es/594843/chrome/450_1000.jpg");
-      }
-      if (window.scrollY <= 100) {
+        
+      if (window.scrollY >= 450) {
         if (!this.defaultImage) {
           return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/arch.jpg");
         }

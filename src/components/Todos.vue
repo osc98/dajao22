@@ -2,7 +2,7 @@
 <template> <div id='container' style="margin:0px auto 0; width:50%;">
     <br>
       <div tabindex="0" class="e-card" id="basic">
-        <div class="e-card-header">
+        <div class="e-card-header"  data-aos="fade-up" data-aos-delay="500">
             <div class="e-card-header-caption">
                 <div class="e-card-title">Grounded airplanes during the novel coronavirus pandemic</div>
             </div>
@@ -19,181 +19,82 @@
       :src="
         isDefaultImage 
       "
-      width="450"/> 
+      :width="isDefaultImageTam"/> 
       </li>
   </ul>
 </div> <iframe class="item" src="https://www.eodashboard.org/iframe?poi=IT9-E13b" width="800px" height="500px" frameBorder="0" scroll="no" style="overflow:hidden"></iframe>        
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
-<p>
-.
-</p>
+<div id='container' style="margin:0px auto 0; width:50%;">
+    <br>
+      <div tabindex="0" class="e-card" id="basic"  data-aos="fade-up" data-aos-delay="500">
+        <div class="e-card-header">
+            <div class="e-card-header-caption">
+                <div class="e-card-title">Grounded airplanes during the novel coronavirus pandemic</div>
+            </div>
+        </div>
+        <div class="e-card-content">
+          •	To help quantify these changes, scientists are combining two kinds of space-based
+remote sensing data – synthetic aperture radar (SAR) data from JAXA’s ALOS-2 and ESA’s Copernicus Sentinel-1 satellites with NASA-processed high-resolution optical remote sensing data from Planet Inc. ESA's Copernicus Sentinel-2 multispectral satellite data – to observe and quantify the changes in grounded airplanes and air traffic around the world
+
+        </div>
+    </div>
+</div> 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
   
 </template> 
 
@@ -204,6 +105,7 @@ export default {
   data() {
     return {
       isDefaultImage: "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/arch.jpg",
+      isDefaultImageTam:0,
     };
   },
   created() {
@@ -218,23 +120,58 @@ export default {
       console.log(window.scrollY);
         if (window.scrollY <450) {
         if (!this.defaultImage) {
-          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/0.png");
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/0.png",this.isDefaultImageTam=0);
         }
       }
         
-      if (window.scrollY >= 450 && window.scrollY < 460 ) {
+      if (window.scrollY >= 680 && window.scrollY < 700 ) {
         if (!this.defaultImage) {
-          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/A1.jpg");
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/A1.jpg",this.isDefaultImageTam=500);
         }
       }
-      if (window.scrollY > 460 && window.scrollY < 470 ) {
+      if (window.scrollY > 700 && window.scrollY < 720 ) {
         if (!this.defaultImage) {
-          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/A2.jpg");
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/A2.jpg",this.isDefaultImageTam=500);
         }
       }
-      if (window.scrollY > 470 && window.scrollY < 480 ) {
+      if (window.scrollY > 720 && window.scrollY < 740 ) {
         if (!this.defaultImage) {
-          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/A3.jpg");
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/A3.jpg",this.isDefaultImageTam=500);
+        }
+      }
+      if (window.scrollY > 720 && window.scrollY < 740 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/A4.jpg",this.isDefaultImageTam=500);
+        }
+      }
+      if (window.scrollY > 740 && window.scrollY < 780 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/A5.jpg",this.isDefaultImageTam=500);
+        }
+      }
+      if (window.scrollY > 780 && window.scrollY < 800 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/A6.jpg",this.isDefaultImageTam=500);
+        }
+      }
+      if (window.scrollY > 820 && window.scrollY < 840 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/A7.jpg",this.isDefaultImageTam=500);
+        }
+      }
+      if (window.scrollY > 860 && window.scrollY < 880 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/A8.jpg",this.isDefaultImageTam=500);
+        }
+      }
+      if (window.scrollY > 860 && window.scrollY < 880 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/A9.jpg",this.isDefaultImageTam=500);
+        }
+      }
+      if (window.scrollY > 920 && window.scrollY < 940 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/A10.jpg",this.isDefaultImageTam=500);
         }
       }
           },
@@ -267,11 +204,9 @@ export default {
 }
 #contenedorMenu{
   position: fixed;
-width: 500px;
-height: 200px;
-margin: 5% auto; /* Will not center vertically and won't work in IE6/7. */
-left: 0;
-right: 0;
+  
+  left: 0;
+  right: 0;;
 }
   .todos {
     max-width: 400px;

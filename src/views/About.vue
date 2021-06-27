@@ -15,7 +15,7 @@
     <p>Who We Are</p>
     <p>We are DAJAO</p>
     <p>A little team that works for a better world providing more information and easily to understand</p>
-    <p>We are made up of a group of 5 personnel which are.</p>
+    <p>We are made up of a group of 5 personnel which are. </p>
     <br><br>
     <h1>Oscar</h1>
     <img data-aos="zoom-in-right" src="../assets/osc98.jpg"> 

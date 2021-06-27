@@ -77,25 +77,81 @@ remote sensing data – synthetic aperture radar (SAR) data from JAXA’s ALOS-2
                 <div class="e-card-title"><h1>North Adriatic - Water Quality Regional Maps</h1></div>
             </div>
         </div>
-        
     </div>
-</div> 
+</div> <iframe class="item" src="https://www.eodashboard.org/iframe?poi=NorthAdriaticTSM_ESA-N3a2" width="800px" height="500px" frameBorder="0" scroll="no" style="overflow:hidden"></iframe>
+<!-- Es b -->
 <br><div id='container' style="margin:0px auto 0; width:50%;">
  <div tabindex="0" class="e-card" id="basic"  data-aos="fade-up" data-aos-delay="500">
         <div class="e-card-header">
             <div class="e-card-header-caption">
-                <div class="e-card-title"><h1>Airplanes during the novel coronavirus pandemic</h1></div>
+                <div class="e-card-title">•	Example of the impact of COVID-19 on Water Quality</div>
             </div>
         </div>
         <div class="e-card-content">
-          •	To help quantify these changes, scientists are combining two kinds of space-based
-remote sensing data – synthetic aperture radar (SAR) data from JAXA’s ALOS-2 and ESA’s Copernicus Sentinel-1 satellites with NASA-processed high-resolution optical remote sensing data from Planet Inc. ESA's Copernicus Sentinel-2 multispectral satellite data – to observe and quantify the changes in grounded airplanes and air traffic around the world
-
+          •	A general, negative trend of Chl concentration anomaly is observed in the Venice Lagoon as well as offshore the whole Po River coastal zone during the Italian lockdown. 
+•	In the Venice lagoon, this pattern of low Chlorophyll concentration can be most probably linked to the decrease of maritime traffic and tourism frequentation.
         </div>
     </div>
     </div>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><div id='container' style="margin:0px auto 0; width:50%;">
+ <div tabindex="0" class="e-card" id="basic"  data-aos="fade-up" data-aos-delay="500">
+        <div class="e-card-content">
+          •	In the Venice lagoon, this pattern of low Chlorophyll concentration can be most probably linked to the decrease of maritime traffic and tourism frequentation.
+<br/>•	Offshore the lagoon, this striking negative trend is likely due to remarkably well-stratified thermohaline conditions, which maintained values of Chl concentration fairy low and hindered alongshore transport of riverine loads in the northern sector of the basin. These well-stratified conditions, clearly exemplified by the observed increase in Sea Surface Temperature as measured by a multi-sensor product (including data from NOAA-18, MetOpA-B, Aqua, Terra, MSG1, NPP, Meteosat11, Sentinel 3A-B), resulted from the particular interplay between low and warm Po River runoff and low wind intensities
+        </div>
+    </div>
+    </div>
+<br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div id='container' style="margin:0px auto 0; width:50%;">
+ <div tabindex="0" class="e-card" id="basic"  data-aos="fade-up" data-aos-delay="500">
+        <div class="e-card-content">
+        <ul style="list-style-type: disc;">
+    <li><span >However, despite the clear role of natural environmental factors, we cannot exclude a mutual role of a decrease in human activities over the Po River watershed, which enhanced the negative anomaly in Chl concentration, as highlighted by the low turbidity values in the lower branch of Po River, measured by Sentinel-2 during the lockdown pase.</span></li>
+    <li><span >Impact of COVID-19 on Water Quality</span></li>
+</ul>
+<p style='margin-right:0cm;margin-left:36.0pt;font-size:15px;margin-top:0cm;margin-bottom:0cm;line-height:107%;background:white;'><span >The <strong><span >Water Quality index</span></strong> was designed to assess the effect of the lockdown and the subsequent recovery on inland and coastal waters by monitoring the deviation from a climatological mean of chlorophyll-a (Chl) concentration as measured from optical sensors onboard the three agency&rsquo;s satellites, namely&nbsp;</span><span ><a href="http://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-3" target="_blank"><strong><span >Sentinel-3 (ESA)</span></strong></a></span><span style="font-family:Roboto;color:black;">,&nbsp;</span><span ><a href="https://global.jaxa.jp/projects/sat/gcom_c/" target="_blank"><strong><span style="font-family:Roboto;">GCOM-C (JAXA)</span></strong></a></span><span style="font-family:Roboto;color:black;">&nbsp;and&nbsp;</span><span ><a href="https://oceancolor.gsfc.nasa.gov/data/aqua/" target="_blank"><strong><span style="font-family:Roboto;">Aqua (NASA)</span></strong></a></span><span style="font-family:Roboto;color:black;">.</span></p>
+        </div>
+    </div>
+    </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br> <div tabindex="0" class="e-card" id="basic"  data-aos="fade-up" data-aos-delay="500">
+        <div class="e-card-header">
+            <div class="e-card-header-caption">
+                <div class="e-card-title"><h1>World, Air Quality</h1></div>
+            </div>
+        </div>
+    </div>
+<br><iframe class="item" src="https://www.eodashboard.org/iframe?poi=W1-N1" width="800px" height="500px" frameBorder="0" scroll="no" style="overflow:hidden"></iframe>
 <br>
 <br>
 <br>
@@ -196,9 +252,102 @@ export default {
           return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/A10.jpg",this.isDefaultImageTam=500);
         }
       }
-      if (window.scrollY > 1000 ) {
+      if (window.scrollY > 1000 && window.scrollY <= 1800 ) {
         if (!this.defaultImage) {
           return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/A10.jpg",this.isDefaultImageTam=0);
+        }
+      }
+      if (window.scrollY > 2000 && window.scrollY <= 2020 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/B1.png",this.isDefaultImageTam=400);
+        }
+        }
+        if (window.scrollY > 2040 && window.scrollY <= 2080 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/B2.png",this.isDefaultImageTam=400);
+        }
+        }
+        if (window.scrollY > 2080 && window.scrollY <= 2100 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/B3.png",this.isDefaultImageTam=400);
+        }}
+
+        if (window.scrollY > 2120 && window.scrollY <= 2140 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/B4.png",this.isDefaultImageTam=400);
+        }}
+        if (window.scrollY > 2160 && window.scrollY <= 2180 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/B5.png",this.isDefaultImageTam=400);
+        }}
+        if (window.scrollY > 2200 && window.scrollY <= 2220 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/B6.png",this.isDefaultImageTam=400);
+        }
+      }
+        if (window.scrollY > 2220 && window.scrollY <= 2240 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/B7.png",this.isDefaultImageTam=400);
+        }
+      }
+        if (window.scrollY > 2240 && window.scrollY <= 2260 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/B8.png",this.isDefaultImageTam=400);
+        }
+      }
+        if (window.scrollY > 2280 && window.scrollY <= 2300 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/B9.png",this.isDefaultImageTam=400);
+        }
+      }
+        if (window.scrollY > 2320 && window.scrollY <= 2340 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/B10.png",this.isDefaultImageTam=400);
+        }
+      }
+        if (window.scrollY > 2360 && window.scrollY <= 2380 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/B11.png",this.isDefaultImageTam=400);
+        }
+      }
+        if (window.scrollY > 2380 && window.scrollY <= 2400 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/B12.png",this.isDefaultImageTam=400);
+        }
+      }
+        if (window.scrollY > 2400 && window.scrollY <= 2420 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/B13.png",this.isDefaultImageTam=400);
+        }
+      }
+        if (window.scrollY > 2420 && window.scrollY <= 2440 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/B14.png",this.isDefaultImageTam=400);
+        }
+      }
+        if (window.scrollY > 2440 && window.scrollY <= 2480 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/B15.png",this.isDefaultImageTam=400);
+        }
+      }
+      if (window.scrollY > 2480 && window.scrollY <= 2500 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/B16.png",this.isDefaultImageTam=400);
+        }
+      }
+      if (window.scrollY > 2500 && window.scrollY <= 2520 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/B17.png",this.isDefaultImageTam=400);
+        }
+      }
+      if (window.scrollY > 2520 && window.scrollY <= 2540 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/B18.png",this.isDefaultImageTam=400);
+        }
+      }
+      if (window.scrollY > 2900 && window.scrollY <= 4000 ) {
+        if (!this.defaultImage) {
+          return (this.isDefaultImage = "https://raw.githubusercontent.com/osc98/dajao22/main/src/assets/B18.png",this.isDefaultImageTam=0);
         }
       }
           },
